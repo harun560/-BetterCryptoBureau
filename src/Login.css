@@ -1,0 +1,57 @@
+/* Add global styles for the login page */
+body {
+    font-family: sans-serif;
+    background-color: #fcfafa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add styles for the login form */
+  form {
+
+    max-width: 500px;
+    margin-top: 20px;
+    margin: 20px auto;
+    background-color: rgb(87, 159, 139);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  form label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 14px;
+    color: #333;
+    border-radius: 4px;
+  }
+  
+  form input[type="email"]:focus,
+  form input[type="password"]:focus {
+    border-color: #2196f3;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.25);
+  }
+  
+  form button[type="submit"] {
+    background-color: #2196f3;
+    color: #fff;
+    border: 0;
+    padding: 12px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #1976d2;
+  }
